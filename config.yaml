@@ -1,0 +1,10 @@
+# config.yaml
+api_url: https://api.gemini.example.com/infer
+api_key: "your-api-key"
+dataset: "datasets/sample_dataset.yaml"
+attack_type: "nes"
+nes_params:
+  epsilon: 0.05
+  iterations: 40
+  sigma: 0.01
+  alpha: 0.01
